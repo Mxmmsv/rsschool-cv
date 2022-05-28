@@ -12,9 +12,14 @@ I have a curiosity like a child. I like to find and learn new things. Big intere
 * JavaScript Basics
 * Git, Github
 ### Code Example:
+First task from [Codewars](https://www.codewars.com/). Basic multiply KATA.
 ```
-console.log('Hello, ' + 'World!');
+function multiply(a, b){
+  return a * b
+}
 ```
+### Experience:
+* My [CV](https://mxmmsv.github.io/rsschool-cv/cv).
 ### Education:
 * University: Moscow State Law University, Civil law major
 * Courses:

@@ -31,6 +31,6 @@ function multiply(a, b){
     + [CodeBasic](https://ru.code-basics.com/)
         - HTML for beginners
         - CSS for beginners
-### English:
+### Languages:
 * Russian \- Native
 * English \- Is the range of ***B1 Intermediate to B2 Upper Intermediate*** (according to [quick test result](https://www.efset.org/quick-check))

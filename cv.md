@@ -14,3 +14,18 @@ I have a curiosity like a child. I like to find and learn new things. Big intere
 ### Code Example:
 ```
 console.log('Hello, ' + 'World!');
+```
+### Education:
+* University: Moscow State Law University, Civil law major
+* Courses:
+    + [The Rolling Scopes School (in process)](https://rs.school/)
+        - «JavaScript/Front-end. Stage 0»
+        - «JavaScript/Front-end. Stage 1»
+    + [CS50 lecture](https://www.youtube.com/playlist?list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5)
+    + [HTML book](http://htmlbook.ru/)
+    + [CodeBasic](https://ru.code-basics.com/)
+        - HTML for beginners
+        - CSS for beginners
+### English:
+* Russian \- Native
+* English \- Is the range of ***B1 Intermediate to B2 Upper Intermediate*** (according to [quick test result](https://www.efset.org/quick-check))

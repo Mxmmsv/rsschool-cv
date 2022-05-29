@@ -11,6 +11,7 @@ I have a curiosity like a child. I like to find and learn new things. Big intere
 * CSS3
 * JavaScript Basics
 * Git, Github
+* Microsoft Visual Studio
 ### Code Example:
 First task from [Codewars](https://www.codewars.com/). Basic multiply KATA.
 ```

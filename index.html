@@ -8,58 +8,61 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Maxim Moiseev Junior Front-End Developer CV</title>
-    <link rel="icon" href="assets/img/x-icon/favicon-16x16.png" type="image/png" sizes="16x16"> 
-    <link rel="icon" href="assets/img/x-icon/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="./assets/x-icon/favicon-16x16.png" type="image/png" sizes="16x16"> 
+    <link rel="icon" href="./assets/x-icon/favicon-32x32.png" type="image/png" sizes="32x32">
 </head>
 <body>
     <header class="header">
-        <div class="container div">
+        <div class="container header-container">
             <nav class="nav">
-                <ul class="nav list">
-                    <li class="nav item">
-                        <a href="#contacts" class="nav link">Contacts</a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link">Contacts</a>
                     </li>
-                    <li class="nav item">
-                        <a href="#about me" class="nav link">About me</a>
+                    <li class="nav-item">
+                        <a href="#about-me" class="nav-link">About me</a>
                     </li>
-                    <li class="nav item">
-                        <a href="#skills" class="nav link">Skills</a>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
                     </li>
-                    <li class="nav item">
-                        <a href="#code example" class="nav link">Code Example</a>
+                    <li class="nav-item">
+                        <a href="#code" class="nav-link">Code Example</a>
                     </li>
-                    <li class="nav item">
-                        <a href="#experience" class="nav link">Experience</a>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
                     </li>
-                    <li class="nav item">
-                        <a href="#education" class="nav link">Education</a>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">Education</a>
                     </li>
-                    <li class="nav item">
-                        <a href="#language" class="nav link">Language</a>
+                    <li class="nav-item">
+                        <a href="#language" class="nav-link">Language</a>
                     </li>
                 </ul>
-
             </nav>
         </div>
     </header>
     <main class="main">
-        <div class="container main">
-            <section class="section profile" id="profile">
-                <img src="/assets/img/profile logo.jpg" alt="Profile Logo">
-                <div>
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="./assets/img/profile-logo.jpg" alt="Profile Logo" class="section-profile-logo">
+                <div class="section-profile-title">
                     <h1>Maxim Moiseev</h1>
                     <h3>Junior Front-End Developer</h3>
                 </div>
             </section>
-            <section class="section-title" id="about me">
+            <section class="section-title" id="about-me">
                 <div>
                     <h3>About me</h3>
                     <p>I have a curiosity like a child. I like to find and learn new things. Big interest in computer science.</p>
                 </div>                
             </section>
-            <section class="section-title" id="code example">
+            <section class="section-title" id="code">
                 <div>
                     <h3>Code Example</h3>
+                    <!--Переделать согласно гайдлайну (форматирование тегов)-->
+                    <span>First task from</span>
+                    <a href="https://www.codewars.com/" title="CodeWars">CodeWars.</a>
+                    <span>Basic multiply KATA.</span>
                     <pre>
                         <code>
                             function multiply(a, b){
@@ -154,7 +157,7 @@
                 <ul>
                     <li>Russian - native</li>
                     <li>
-                        English - A1 
+                        English - A1
                         <a href="https://examinator.epam.com/" title="EPAM test">(according to EPAM test result)</a>
                     </li>
                 </ul>
@@ -167,7 +170,13 @@
         </div>
     </aside>
     <footer class="footer">
-        <div></div>
+        <div>
+            <div>
+                © 2022 
+                <a href="https://github.com/Mxmmsv" title="GitHub">Mxmmsv</a>
+            </div>
+            <a href="https://rs.school/js/" class="rss"></a>
+        </div>
     </footer>
 </body>
 </html>

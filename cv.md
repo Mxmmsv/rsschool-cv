@@ -43,4 +43,4 @@ function multiply(a, b){
 ### Languages:
 * Russian \- Native
 * English \- Is the range of ***B1 Intermediate to B2 Upper Intermediate*** (according to [quick test result](https://www.efset.org/quick-check))<br>
-![Efest-score](/images/Efest%20Score.png)
+![Efest-score](/images/efest-score.png)

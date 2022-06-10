@@ -1,10 +1,11 @@
-/* Global */
+/*! Global */
+
 * {
   box-sizing: border-box;
-} 
+}
 
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 body {
@@ -23,14 +24,39 @@ body {
   background-color: rgba(245, 245, 245, 1);
 }
 
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
   min-height: 50px;
 }
 
+/*! Header */
+
 .header {
   background-color: rgba(30, 40, 55, 1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  width: 100%;
+  display: block;
+}
+
+.rs-logo {
+  padding: 5px;
+  height: 75px;
+  width: 200px;
 }
 
 .nav-list {
@@ -42,25 +68,41 @@ body {
 
 .nav-link {
   position: relative;
-  padding: 0 10px;
+  padding: 0 20px;
   text-decoration: none;
   font-size: 25px;
   font-weight: 300;
   line-height: 50px;
-  color: #fff; 
+  color: #fff;
 }
 
-.section-title {
-  color: rgba(245, 245, 245, 1);
-  border: 1px solid rgba(30, 40, 55, 1);
-  background-color: rgba(30, 40, 55, 1);
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  bottom: -5px;
+  width: calc(100% - 24px);
+  height: 2px;
+  background-color: #fff;
+  opacity: 0;
+  transition: .5s;
 }
+
+.nav-link:hover::after {
+  opacity: 2;
+  animation-name: slidein;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+/*! Main */
 
 .section-profile {
+  width: 100%;
+  height: 300px;
   display: flex;
   justify-content: space-around;
-  width: 100%;
-  padding: 50px 30px 35px;
+  padding: 35px 0 35px;
 }
 
 .section-profile-logo {
@@ -72,6 +114,25 @@ body {
   transition: .3s;
 }
 
+.section-profile-title {
+  text-align: center;
+}
+
+.section-profile-name {
+  margin: 0;
+  font-size: 2em;
+}
+
+.section-profile-job {
+  margin: 0;
+}
+
+.section-title {
+  color: rgba(245, 245, 245, 1);
+  border: 1px solid rgba(30, 40, 55, 1);
+  background-color: rgba(30, 40, 55, 1);
+}
+
 .aside {
   width: 350px;
   height: max-content;
@@ -81,8 +142,6 @@ body {
 .footer {
   width: auto;
   height: auto;
-  background-color: rgba(30, 40, 55, 1);
-}
-.footer-section {
   color: #fff;
+  background-color: rgba(30, 40, 55, 1);
 }

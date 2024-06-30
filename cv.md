@@ -37,6 +37,7 @@ function multiply(a, b){
         - HTML for beginners
         - CSS for beginners
         - JS for beginners
+        - some shtuchki
 ---
 ### Languages:
 * Russian \- Native

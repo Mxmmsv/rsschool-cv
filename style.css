@@ -1,3 +1,24 @@
 body {
     background-color: antiquewhite;
 }
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}

@@ -6,53 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <title>CV</title>
 </head>
 <body>
-    <header class="header header_block header_font header_style">
-        <nav class="nav">
-            <ul class="nav_list">
-                <li>
-                    <a href="#contacts">Contacts</a>
-                </li>
-                <li>
-                    <a href="#about_me">About me</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#code">Code example</a>
-                </li>
-                <li>
-                    <a href="#course">Course</a>
-                </li>
-                <li>
-                    <a href="#education">Education</a>
-                </li>
-            </ul>
-        </nav>
-        <h1 class="headline">Maxim Moiseev</h1>
-    </header>
-    <main>
-        <section class="section" id="contacts">
-            <h2>Contacts</h2>
-            <div class="contacts-container">
-                <ul>
-                    <li>Locations: Kirov, Russia</li>
-                    <li>Discord: oiki#0001</li>
-                    <li>Email:
-                        <a href="mailto:oikioikioikiabrams@gmail.com">oikioikioikiabrams@gmail.com</a>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li>
+                        <a href="#contacts">Contacts</a>
                     </li>
-                    <li>Telegram:
-                        <a href="https://t.me/oikioiki">oikioiki</a>
+                    <li>
+                        <a href="#about_me">About me</a>
                     </li>
-                    <li>Github:
-                        <a href="https://github.com/Mxmmsv">Mxmmsv</a>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#code">Code example</a>
+                    </li>
+                    <li>
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#language">Language</a>
                     </li>
                 </ul>
-            </div>
-        </section>
-    </main>
+            </nav>
+            <h1 class="headline">Maxim Moiseev</h1>
+        </header>
+        <main>
+            <section class="section" id="contacts">
+                <h2>Contacts</h2>
+                <div class="contacts-container">
+                    <ul>
+                        <li>Locations: Kirov, Russia</li>
+                        <li>Discord: oiki#0001</li>
+                        <li>Email:
+                            <a href="mailto:oikioikioikiabrams@gmail.com">oikioikioikiabrams@gmail.com</a>
+                        </li>
+                        <li>Telegram:
+                            <a href="https://t.me/oikioiki">oikioiki</a>
+                        </li>
+                        <li>Github:
+                            <a href="https://github.com/Mxmmsv">Mxmmsv</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="about_me">
+                <h2>About me</h2>
+                <p>Hello, my name is Maxim and I am 24 years old. I have been interested in computer science since childhood. I love to learn and find something new. This is my third attempt to complete the course, I wish you and yourself good luck in this difficult task!</p>
+            </section>
+            <section class="section" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li class="skill_list">
+                        <img src="./assets/svg/html.svg" width="42" alt="HTML logo">
+                        <span>HTML</span>
+                    </li>
+                    <li class="skill_list">
+                        <img src="./assets/svg/css.svg" width="42" alt="CSS logo">
+                        <span>CSS</span>
+                    </li>
+                    <li class="skill_list">
+                        <img src="./assets/svg/js.svg" width="42" alt="JS logo">
+                        <span>JS</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2>Code example</h2>
+                <p>First task from <a href="https://www.codewars.com/">Codewars</a>. Basic multiply KATA.</p>
+                <pre>
+                    <code>
+                        function multiply(a, b){
+                            return a * b
+                          }
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="experience">
+                <h2>Experience</h2>
+                <p>My <a href="https://mxmmsv.github.io/rsschool-cv/cv">CV</a>.</p>
+            </section>
+        </main>
+    </div>
 </body>
 </html>

@@ -1,0 +1,92 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    font-family: "Roboto Mono", monospace;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav_list li {
+    margin: 0 10px;
+}
+
+.nav_list a {
+    padding: 10px;
+}
+
+.nav_list a:hover {
+    color: #103179;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.headline {
+    font-size: 24px;
+    padding-left: 25px;
+}
+
+.section {
+    margin: 42px 0 0;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+.skill_order {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill_list {
+    display: flex;
+    align-items: center;
+}
+
+.skill_list img {
+    margin-right: 7px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}

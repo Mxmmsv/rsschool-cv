@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
     background-color: antiquewhite;
@@ -15,9 +19,8 @@ a {
 
 .wrapper {
     max-width: 1440px;
-    margin: 0 20px;
-
-    
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .header {
@@ -82,3 +85,8 @@ a {
     margin-right: 7px;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
